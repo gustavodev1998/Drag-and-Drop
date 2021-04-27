@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+.container {
+    height: 350px;
+    width: 430px;
+}
+
+.container .wrapper {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #FFF;
+    border: 2px dashed #c2cdda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.wrapper.active {
+    border: none;
+}
+
+.wrapper .image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.wrapper .icon {
+    font-size: 100px;
+    color: #9658fe;
+}
+
+.wrapper .text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #5b5b7b;
+}
+
+.wrapper #cancel-btn {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(228 217 217);
+    
+    display: none;
+}
+
+/* When the class is active and they hover over it
+it enables the cancel-btn and the file-name */
+.wrapper.active:hover #cancel-btn,
+.wrapper.active:hover .file-name {
+    display: block;
+}
+
+.wrapper #cancel-btn:hover {
+    color: #FFF;
+} 
+
+.wrapper .file-name {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: #FFF;
+    padding: 8px 0;
+    font-size: 18px;
+    background: linear-gradient(135deg, #3a8ffe 0%, #9658fe 100%);
+
+    display: none ;
+}
+
+.container #custom-btn {
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    display: block;
+    border: none;
+    border-radius: 25px;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(135deg, #3a8ffe 0%, #9658fe 100%);
+}
+
+
+@media(max-width: 450px) {
+    .container {
+        width: 320px;
+    }
+
+    .container .wrapper {
+        height: 265px;
+    }
+}
