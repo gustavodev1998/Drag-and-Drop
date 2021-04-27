@@ -23,12 +23,12 @@ This project was developed using the following technologies:
 This is a challenge with the purpuse of building a Drag and Drop or an Upload space where someone can choose an image file and display it to the user.
 
 ## 🔖 Layout
-To check it out acess: <a target="_blank" href="https://gustavodev1998.github.io/Faq-Accordion-Card/">Drag and Drop / Upload</a>
+To check it out acess: <a target="_blank" href="https://gustavodev1998.github.io/Drag-and-Drop/">Drag and Drop / Upload</a>
 
 ## :memo: License
 
 This project is under a MIT license. Check out the archive
-<a href=https://github.com/gustavodev1998/Drag-and-Drop/blob/581df536b4fa7d48cfc39783756d29d6afdf90d6/LICENSE>[LICENSE]</a> for more details.
+<a href="https://github.com/gustavodev1998/Drag-and-Drop/blob/581df536b4fa7d48cfc39783756d29d6afdf90d6/LICENSE">[LICENSE]</a> for more details.
 
 ---
 
